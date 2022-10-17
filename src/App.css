@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid black;
+}
+
+header .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+header .nav-links a:hover {
+    text-decoration: underline;
+    color: grey;
+    text-decoration-color: red;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+}

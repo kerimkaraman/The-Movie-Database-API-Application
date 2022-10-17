@@ -12,15 +12,17 @@ header .nav-links {
     gap: 1rem;
 }
 
-header .nav-links a {
-    text-decoration: none;
+header .nav-links button {
+    background: none;
+    border: none;
     color: black;
+    font-size: 1.2rem;
 }
 
-header .nav-links a:hover {
+header .nav-links button:hover {
+    cursor: pointer;
     text-decoration: underline;
-    color: grey;
-    text-decoration-color: red;
+    text-decoration-color:red;
 }
 
 .items {

@@ -18,9 +18,9 @@ function App() {
       <header>
         <h1>THE MOVIE DATABASE</h1>
         <div className='nav-links'>
-          <a href="#" onClick={() => { setType('top_rated')}}>Top Rated</a>
-          <a href="#" onClick={() => { setType('popular') }}>Popular</a>
-          <a href="#" onClick={() => { setType('upcoming') }}>Upcoming</a>
+          <button onClick={() => { setType('top_rated')}}>Top Rated</button>
+          <button onClick={() => { setType('popular') }}>Popular</button>
+          <button onClick={() => { setType('upcoming') }}>Upcoming</button>
         </div>
       </header>
       <div className='items'>
